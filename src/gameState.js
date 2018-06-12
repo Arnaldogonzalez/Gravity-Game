@@ -5,7 +5,6 @@ var gameState = function(game){
     var cursors;
     var ballControllers = [];
     var timer = 0;
-
     var movePlayer = function(){
         player.body.velocity.x = 0;
         if(cursors.left.isDown){

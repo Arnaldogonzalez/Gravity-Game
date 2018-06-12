@@ -14,11 +14,13 @@ var evilBallController = function(sprite){
             sprite.y = 480;
         }
     }
+
     var changeDirection = function(){
         var xVelocity = Math.random()*300;
         if(xVelocity > 150){
             xVelocity -= 301;
         }
+        
         var yVelocity = Math.random()*300;
         if(yVelocity > 150){
             yVelocity -= 301;

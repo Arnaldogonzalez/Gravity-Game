@@ -12,6 +12,7 @@ var gameOverState = function(game){
         var playButton = this.game.add.button(400, 240, 'play_button', buttonClicked, this);
         playButton.anchor.setTo(0.5, 0.5);
     }
+    
     return{
         preload: preload,
         create: create
